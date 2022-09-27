@@ -1,0 +1,366 @@
+ *{
+      margin:0px;
+     padding: 0px;
+    }
+    
+ html, body{
+     background: white
+    }
+    
+#contenedor{
+    width: 100%;
+    height: 100%;
+    display: table;
+    }
+    
+ #header{
+    display: table;
+    width:100%;
+    height: 155px;
+    background-image: url(https://kesslermuseum.com/wp-content/uploads/2019/05/Banner.-Almendro.jpg);
+    background-size: 100% 380px;
+    background-repeat: no-repeat;
+    }
+
+#header h1{
+        color: white;
+        text-align: center;
+        line-height: 40px;
+        font-family: 'Lucida Sans';
+        font-size: 40pt;
+        letter-spacing: 0.7cm;
+        margin-top: 45px;
+        font-weight: 700;
+    }
+    
+.parrafo{
+        color: rgb(255, 255, 255);
+        text-align: center;
+        line-height: 1cm;
+        font-family: 'Footlight FM';   
+        font-size: 12pt;
+        font-weight: 600;
+        letter-spacing: 7px;
+        margin-top: 5px;
+    }
+    
+#nav{
+        display: table;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+    
+#nav ol{
+        list-style-type: none;
+    }
+    
+#nav ol li{
+        display: inline-flex;
+        text-align: center;
+        font-family: 'Berlin Sans FB ';
+        font-weight: 600;
+    }
+    
+#nav ol li a{
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    
+#nav ol li a:hover{
+        color: rgb(21, 39, 67);
+        background-color: rgb(179, 208, 217);
+    }    
+    
+#cuerpo{
+    display: table;
+    width: 100%;
+    height: 100%;
+   }
+   
+#cuerpo h1{
+       text-align: center;
+       font-size: 25pt;
+       color: rgb(32, 32, 85);
+       margin-top: 1%;
+       font-family: 'Tw Cen MT';
+   }
+
+#cuerpo h2{
+    text-align: center;
+    font-size: 18pt;
+    color: rgb(32, 32, 85);
+    font-family: 'Tw Cen MT';
+}
+
+#cuerpo h4{
+    text-align: center;
+    font-size: 11pt;
+    color: black;
+    font-weight: lighter;
+    font-family:'Segoe UI';
+    margin-top: 2px;
+}
+
+.titulo-uno{
+    text-align: left;
+    font-size: 17pt;
+    color: rgb(32, 32, 85);
+    font-family: 'Tw Cen MT';
+    margin-left: 255px;
+    font-weight: 700;
+}
+
+.titulo-dos{
+    text-align: right;
+    font-size: 17pt;
+    color: rgb(32, 32, 85);
+    font-family: 'Tw Cen MT';
+    margin-right: 255px;
+    font-weight: 700;
+}
+
+.titulo-tres{
+    text-align: left;
+    font-size: 17pt;
+    color: rgb(32, 32, 85);
+    font-family: 'Tw Cen MT';
+    margin-right: 255px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.titulo-cuatro{
+    text-align: left;
+    font-size: 17pt;
+    color: rgb(32, 32, 85);
+    font-family: 'Tw Cen MT';
+    margin-right: 255px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.titulo-cinco{
+    text-align: right;
+    font-size: 17pt;
+    color: rgb(32, 32, 85);
+    font-family: 'Tw Cen MT';
+    margin-right: 255px;
+    font-weight: 700;
+}
+
+.imagen{
+    width: 210px;
+    height: 210px;
+    margin: 7px auto 15px auto;
+    display: flex;
+    border-radius: 15px;
+    float: left;
+    margin-top: 1%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.imagendos{
+    width: 210px;
+    height: 210px;
+    margin: 7px auto 15px auto;
+    display: flex;
+    border-radius: 15px;
+    float: right;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.imagentres{
+    width: 210px;
+    height: 210px;
+    margin: 7px auto 15px auto;
+    display: flex;
+    border-radius: 15px;
+    float:left;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.imagencuatro{
+    width: 300px;
+    height: 200px;
+    margin: 7px auto 15px auto;
+    display: flex;
+    float: right;
+    margin-right: 2%;
+    margin-left: 2%;
+    border-radius: 10px;
+
+}
+
+.imagencinco{
+    width: 210px;
+    height: 210px;
+    margin: 7px auto 15px auto;
+    display:inline-flex;
+    float: left;
+    margin-right: 2%;
+    margin-left: 2%;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+.linea{
+    color: darkblue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.parrafo-uno{
+    color: black;
+    font-family: 'Candara';
+    text-align: justify;
+    line-height: 0.7cm;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.parrafo-dos{
+    color: black;
+    font-family: 'Candara';
+    text-align: justify;
+    line-height: 0.7cm;
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.parrafo-tres{
+    color: black;
+    font-family: 'Candara';
+    text-align: justify;
+    line-height: 0.7cm;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.parrafo-cuatro{
+    color: black;
+    font-family: 'Candara';
+    text-align: justify;
+    line-height: 0.7cm;
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.parrafo-cinco{
+    color: black;
+    font-family: 'Candara';
+    text-align: justify;
+    line-height: 0.7cm;
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.parrafo-seis{
+    color: black;
+    font-family: 'Candara';
+    text-align: justify;
+    line-height: 0.7cm;
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.parrafo-siete{
+    color: black;
+    font-family: 'Candara';
+    text-align: justify;
+    line-height: 0.7cm;
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.parrafo-ocho{
+    color: black;
+    font-family: 'Candara';
+    text-align: justify;
+    line-height: 0.7cm;
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#footer{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(0, 0, 0);
+    color: aliceblue;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+.gallery{
+    text-align: center;
+    font-size: 35pt;
+    font-family: 'Lucida Sans';
+    padding-top: 10px;
+    font-weight: 700;
+    letter-spacing: 1cm;
+    padding-left: 55px;
+}
+
+.footer-parrafo{
+    text-align: center;
+    font-size: 9pt;
+    font-family: 'Constantia';
+    padding-top: 5px;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 10pt;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 10px;
+}
+ 
+.facebook{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 15pt;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+
+.instagram{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 15pt;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+
+.twitter{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 15pt;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+
+.youtube{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 15pt;
+    padding-right: 7px;
+    padding-left: 7px;
+} 
